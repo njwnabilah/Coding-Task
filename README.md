@@ -12,7 +12,7 @@ Coding Task 2
 {Scanner scanner = new Scanner(System.in);
    System.out.print("Masukkan nama anda : ");
    String nama = scanner.nextLine();
-   System.out.print("Halo " + nama + " Selamat datang!");}
+   System.out.print("Halo " + nama + " Selamat datang!");} 
 3. Ketiga gunakan new scanner untuk dapat menggunakan kode scanner. Selanjutnya buat kode System.out.print nutuk memunculkan pertanyaan pada output nantinya, berupa pertanyaan “Silahkan masukkan umur anda :”.  Setelah itu gunakan scanner dengan kode “int angka = scanner.nextInt()” Untuk dapat membaca angka yang dimasukkan oleh user nantinya. 
 {Scanner scanner = new Scanner(System.in);
    System.out.print(
