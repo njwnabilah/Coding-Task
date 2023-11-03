@@ -35,3 +35,26 @@ int i = 1;
        i++;}
    System.out.println("Terimakasih telah mencoba:)");}
 
+Coding Task 3
+1. Pertama gunakan import Java.util.scanner untuk dapat membaca kode scanner nantinya
+2. Kedua buat New scanner untuk dapat menggunakan kode scanner, lalu buat “system.out.print” untuk mengeluarkan output berupa pertanyaan “masukkan tanggal lahir kamu :”. Gunakan kode “int tanggal = scanner.nextInt ()” untuk dapat membaca angka yang dimasukkan oleh user nantinya, lakukan hal serupa untuk membuat pertanyaan tentang bulan lahir.
+
+System.out.print("Masukkan tanggal lahir kamu : ");
+int tanggal = scanner.nextInt();
+System.out.print("Masukkan bulan lahir kamu (contoh : juni = 6) : ");
+int bulan = scanner.nextInt();
+
+3. Ketiga buat String zodiak untuk dapat membaca kata yang berkaitan dengan zodiak nantinya. Lalu buat pengkondisian if  dan else if untuk memasukkan setiap zodiak.  Lakukan hal tersebut secara berulang dengan membuat batasan bulan dan tanggal yang sesuai dengan masing-masing zodiak.  Terakhir buat pengkondisian else yang digunakan jika nantinya angka yang dimasukkan oleh user merupakan input yang tidak valid atau tidak terdapat di salah satu pengkondisian, dimana nantinya sistem akan langsung berhenti.
+   
+String zodiak = "";
+if ((bulan == 1 && tanggal >= 20) || (bulan == 2 && tanggal <= 18)) {zodiak = "Aquarius" + " kamu adalah zodiak yang mudah bergaul, cerdas, kreatif, dan keras kepala";} 
+ else if ((bulan == 2 && tanggal >= 19) || (bulan == 3 && tanggal <= 20)) {zodiak = "Pisces" + " kamu adalah zodiak yang imajinatif, penyayang, romantis, dan sensitif";}
+} else {
+   System.out.println("Input tidak valid.");
+   return;}
+
+4. Terakhir buat system.out.print yang digunakan untuk memunculkan kata “zodiakmu adalah + Zodiak”. Yang di mana zodiak yang akan muncul tersebut merupakan hasil yang didapat dari pengkondisian yang telah dibuat sebelumnya.
+   
+System.out.println("zodiak mu adalah, " + zodiak + " :)");
+scanner.close();
+
