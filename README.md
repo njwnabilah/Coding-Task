@@ -59,3 +59,21 @@ Coding Task 3
    System.out.println("zodiak mu adalah, " + zodiak + " :)");
    scanner.close();
 
+Coding Task 4
+1. Pertama gunakan string  untuk membaca kalimat atau kata, selanjutnya masukkan variabel yang merupakan sesuatu dengan jenis yang sama untuk membuat sebuah array. Dimana 
+   array adalah variabel yang bisa menyimpan banyak data dalam satu variabel.
+
+   String[] minuman = { "jus mangga", "jus jeruk", "jus melom", "jus jambu", "jus alpukat", "jus apel"};
+
+3. Kedua buat kode System.out.printIn untuk memunculkan pernyataan, dalam hal ini berupa dibuat dalam bentuk “jus buah yang tersedia”. Hal ini disesuaikan saja dengan jenis 
+   variabel yang dibuat sebelumnya.
+
+   System.out.println("jus buah yang tersedia");
+   
+4. Terakhir gunakan kode for yang digunakan untuk menentukan indeks ke berapa yang akan dimunculkan. Pada kode tersebut indeksnya dimulai dari nol, lalu gunakan       
+   System.out.printIn untuk memunculkan nama minuman sesuai indeks yang telah ditentukan sebelumnya.
+
+   for (int i = 0; i < minuman.length; i++) {
+   System.out.println(minuman [i]);}
+
+
